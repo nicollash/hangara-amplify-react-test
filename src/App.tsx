@@ -1,10 +1,14 @@
 import { useState } from "react";
-import "./App.css";
+
 import { Toolbar, WorkSpace } from "./components";
+
+import { LOCATIONS } from "constant";
+
+import "./App.css";
 
 function App() {
   const [timeRange, setTimeRange] = useState("");
-  const [location, setLocation] = useState("");
+  const [location, setLocation] = useState(LOCATIONS[0].value);
 
   return (
     <div className="App">

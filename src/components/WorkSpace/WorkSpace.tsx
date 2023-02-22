@@ -1,9 +1,5 @@
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import moment from "moment";
-
-import { WEATHER_DATA_TYPES } from "constant";
-
-import "./WorkSpace.css";
 import {
   AreaChart,
   Area,
@@ -12,6 +8,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+
+import { WEATHER_DATA_TYPES } from "constant";
+
+import "./WorkSpace.css";
 
 interface WorkSpaceProps {
   location: string;

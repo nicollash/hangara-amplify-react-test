@@ -15,7 +15,6 @@ export const LocationSelector = ({
 }: LocationSelectorProps) => {
   const handleChangeLocation = (e: ChangeEvent<HTMLSelectElement>) => {
     const { value } = e.target;
-    console.log(value);
     onChangeLocation(value);
   };
 
