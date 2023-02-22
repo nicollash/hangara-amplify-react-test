@@ -1,0 +1,17 @@
+.date-ranger {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-ranger__title {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.date-ranger__selectors {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

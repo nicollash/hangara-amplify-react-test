@@ -1,0 +1,10 @@
+.location-selector {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-selector__title {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 0px;
+}
